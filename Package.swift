@@ -26,7 +26,6 @@ let package = Package(
             name: "SwiftTasksVisionCore",
             dependencies: ["MediaPipeCommonGraphLibraries", "MediaPipeTasksVision"],
             linkerSettings: [
-                .unsafeFlags(["-ObjC"]),
                 .linkedFramework("CoreMedia"),
                 .linkedFramework("CoreVideo"),
                 .linkedFramework("AVFoundation"),
