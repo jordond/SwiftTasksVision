@@ -12,6 +12,10 @@ let package = Package(
             name: "SwiftTasksVision",
             targets: ["SwiftTasksVision"]
         ),
+        .library(
+            name: "MediaPipeTasksVision",
+            targets: ["MediaPipeTasksVision"]
+        ),
         .executable(
             name: "UpdatePackage",
             targets: ["UpdatePackage"]
